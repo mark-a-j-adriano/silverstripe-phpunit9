@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripePhpUnit9\\": "src/",
-            "SilverStripePhpUnit9\\Tests\\": "tests/"
+            "HippoStep\\SilverStripePhpUnit9\\": "src/",
+            "HippoStep\\SilverStripePhpUnit9\\Tests\\": "tests/"
         }
     },
     "extra": {
