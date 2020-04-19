@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01b34ab3054970958a92f57ad2dd5e31",
+    "content-hash": "9f596806a69621ae837fa35b8a47a845",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1220,16 +1220,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "4.5.0",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "f75094abcd8ff29ece4bca05a297fda106e3ba89"
+                "reference": "5fd16cd7e1b2484b050f66068ab70891a2f6c1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/f75094abcd8ff29ece4bca05a297fda106e3ba89",
-                "reference": "f75094abcd8ff29ece4bca05a297fda106e3ba89",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/5fd16cd7e1b2484b050f66068ab70891a2f6c1db",
+                "reference": "5fd16cd7e1b2484b050f66068ab70891a2f6c1db",
                 "shasum": ""
             },
             "require": {
@@ -1332,7 +1332,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2019-12-18T20:04:05+00:00"
+            "time": "2020-02-17T04:47:23+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
