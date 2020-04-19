@@ -603,8 +603,8 @@ class SapphireTestPhpUnit9 extends \PHPUnit\Framework\TestCase
         $message = '',
         $ignoreCase = false,
         $checkForObjectIdentity = true,
+        $checkForNonObjectIdentity = false
 ): void {
-    ) {
         if ($haystack instanceof DBField) {
             $haystack = (string)$haystack;
         }

@@ -23,5 +23,5 @@ sed -i -e 's/protected function setUp()/protected function setUp(): void/'  src/
 
 sed -i -e 's/public static function setUpBeforeClass()/public static function setUpBeforeClass(): void/'  src/SapphireTestPhpUnit9.php
 
-sed -i -e '/public static function assertNotContains(/{n;n;n;n;n;n;s/.*/): void {/}'  src/SapphireTestPhpUnit9.php
+sed -i -e '/public static function assertNotContains(/{n;n;n;n;n;n;n;s/.*/): void {/}'  src/SapphireTestPhpUnit9.php
 
