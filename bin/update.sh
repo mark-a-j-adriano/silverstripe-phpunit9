@@ -25,3 +25,4 @@ sed -i -e 's/public static function setUpBeforeClass()/public static function se
 
 sed -i -e '/public static function assertNotContains(/{n;n;n;n;n;n;n;s/.*/): void {/}'  src/SapphireTestPhpUnit9.php
 
+sed -i -e '/public static function assertContains(/{n;n;n;n;n;n;n;s/.*/): void {/}'  src/SapphireTestPhpUnit9.php

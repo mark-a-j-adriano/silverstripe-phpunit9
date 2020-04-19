@@ -16,6 +16,9 @@
         "squizlabs/php_codesniffer": "^3.0"
     },
     "autoload": {
+	"classmap": [
+	    "src/PHPUnit_Framework_TestCase.php"
+	],
         "psr-4": {
             "HippoStep\\SilverStripePhpUnit9\\": "src/",
             "HippoStep\\SilverStripePhpUnit9\\Tests\\": "tests/"
