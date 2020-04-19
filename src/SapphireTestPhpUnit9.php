@@ -45,7 +45,7 @@ use SilverStripe\View\SSViewer;
  * This class should not be used anywhere outside of unit tests, as phpunit may not be installed
  * in production sites.
  */
-class SilverStripePhpUnit9 extends \PHPUnit\Framework\TestCase
+class SapphireTestPhpUnit9 extends \PHPUnit\Framework\TestCase
 {
     /**
      * Path to fixture data for this test run.

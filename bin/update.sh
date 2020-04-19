@@ -11,7 +11,7 @@ cp vendor/silverstripe/framework/src/Dev/SapphireTest.php src/SapphireTestPhpUni
 
 sed -i -e 's#namespace SilverStripe\\Dev;#namespace HippoStep\\SilverStripePhpUnit9;#' src/SapphireTestPhpUnit9.php
 
-sed -i -e 's/^class SapphireTest extends.*/class SilverStripePhpUnit9 extends \\PHPUnit\\Framework\\TestCase/' src/SapphireTestPhpUnit9.php
+sed -i -e 's/^class SapphireTest extends.*/class SapphireTestPhpUnit9 extends \\PHPUnit\\Framework\\TestCase/' src/SapphireTestPhpUnit9.php
 
 sed -i -e '/PHPUnit_Framework_TestCase/,+2d' src/SapphireTestPhpUnit9.php
 
